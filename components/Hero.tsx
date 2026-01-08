@@ -23,7 +23,7 @@ export default function Hero() {
           transition={{ duration: 0.6, ease: 'easeOut', delay: 0.4 }}
           className="text-lg sm:text-xl text-muted max-w-xl mx-auto mb-10 leading-relaxed"
         >
-          Traction is your AI growth team. It finds your most important users wherever they are—ads, Reddit, email, SEO—while you focus on building products.
+          Traction is your AI growth team. It finds your most important users wherever they are—ads, Reddit, email, SEO—while your team focuses on building.
         </motion.p>
 
         <motion.div
@@ -35,7 +35,7 @@ export default function Hero() {
             href="https://calendly.com/traction-demo/30min"
             className="inline-flex px-6 py-3 text-base font-medium bg-accent text-white rounded-md hover:bg-accent/90 transition-colors"
           >
-            Book a Call
+            Book a Demo
           </a>
         </motion.div>
       </div>

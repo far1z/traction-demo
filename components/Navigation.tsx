@@ -16,7 +16,7 @@ export default function Navigation() {
           href="https://calendly.com/traction-demo/30min"
           className="px-4 py-2 text-sm font-medium bg-accent text-white rounded-md hover:bg-accent/90 transition-colors"
         >
-          Book a Call
+          Book a Demo
         </a>
       </div>
     </motion.nav>

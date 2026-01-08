@@ -26,7 +26,7 @@ export default function FinalCTA() {
             href="https://calendly.com/traction-demo/30min"
             className="inline-flex px-6 py-3 text-base font-medium bg-accent text-white rounded-md hover:bg-accent/90 transition-colors"
           >
-            Book a Call
+            Book a Demo
           </a>
         </motion.div>
       </div>
