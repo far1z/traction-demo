@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Megaphone, MessageCircle, Search, Bot, Lightbulb } from 'lucide-react'
+import { Megaphone, MessageCircle, Search, Lightbulb } from 'lucide-react'
 
 const channels = [
   {
@@ -18,11 +18,6 @@ const channels = [
     icon: Search,
     title: 'SEO/ASO',
     description: 'Audits your search presence. Suggests fixes. Writes content.',
-  },
-  {
-    icon: Bot,
-    title: 'LLM Search',
-    description: 'Monitors how you show up in ChatGPT, Perplexity, Claude. Optimizes for AI discovery.',
   },
   {
     icon: Lightbulb,
