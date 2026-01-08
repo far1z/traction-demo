@@ -23,7 +23,7 @@ export default function Hero() {
           transition={{ duration: 0.6, ease: 'easeOut', delay: 0.4 }}
           className="text-lg sm:text-xl text-muted max-w-xl mx-auto mb-10 leading-relaxed"
         >
-          Traction is your AI growth team. It finds your most important users wherever they are—ads, Reddit, email, SEO—while your team focuses on building.
+          Traction is your AI growth team. It finds your most important users wherever they are—ads, Reddit, email, SEO—while you focus on building.
         </motion.p>
 
         <motion.div
