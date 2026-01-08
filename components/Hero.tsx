@@ -21,15 +21,25 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: 'easeOut', delay: 0.4 }}
-          className="text-lg sm:text-xl text-muted max-w-xl mx-auto mb-10 leading-relaxed"
+          className="text-lg sm:text-xl text-muted max-w-xl mx-auto mb-6 leading-relaxed"
         >
-          Traction is your AI growth team. It finds your most important users wherever they are—ads, Reddit, email, SEO—while you focus on building.
+          Your AI growth team. You build. It grows.
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: 'easeOut', delay: 0.5 }}
+          className="text-sm text-muted/70 mb-10"
+        >
+          For founders and indie hackers who'd rather build than market.
         </motion.p>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: 'easeOut', delay: 0.6 }}
+          className="flex flex-col items-center gap-3"
         >
           <a
             href="https://calendly.com/traction-demo/30min"
@@ -37,6 +47,7 @@ export default function Hero() {
           >
             Book a Demo
           </a>
+          <span className="text-xs text-muted/60">Ads live in 24 hours</span>
         </motion.div>
       </div>
 

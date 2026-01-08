@@ -48,12 +48,12 @@ export default function MorningReport() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-muted mr-2">-</span>
-                    Spent $47.23 → 12 signups{' '}
-                    <span className="text-accent">($3.94 CAC)</span>
+                    Paused 2 underperforming creatives
                   </li>
                   <li className="flex items-start">
                     <span className="text-muted mr-2">-</span>
-                    Replied to 4 Reddit threads about [competitor]
+                    Spent $47.23 → 12 signups{' '}
+                    <span className="text-accent">($3.94 CAC)</span>
                   </li>
                 </ul>
               </div>
@@ -63,11 +63,11 @@ export default function MorningReport() {
                 <ul className="space-y-1.5 text-foreground/90">
                   <li className="flex items-start">
                     <span className="text-muted mr-2">-</span>
-                    Testing Google Search ads
+                    Testing new headline variants
                   </li>
                   <li className="flex items-start">
                     <span className="text-muted mr-2">-</span>
-                    New blog post going live
+                    Scaling budget on top performer
                   </li>
                 </ul>
               </div>

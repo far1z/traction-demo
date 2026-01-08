@@ -10,8 +10,8 @@ export default function Home() {
     <main>
       <Navigation />
       <Hero />
-      <Channels />
       <MorningReport />
+      <Channels />
       <FinalCTA />
       <Footer />
     </main>
