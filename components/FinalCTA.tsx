@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import { track } from '@vercel/analytics'
 
 export default function FinalCTA() {
   return (
@@ -24,6 +25,7 @@ export default function FinalCTA() {
         >
           <a
             href="https://calendly.com/traction-demo/30min"
+            onClick={() => track('book_demo_click', { location: 'final_cta' })}
             className="inline-flex px-6 py-3 text-base font-medium bg-accent text-white rounded-md hover:bg-accent/90 transition-colors"
           >
             Book a Demo
